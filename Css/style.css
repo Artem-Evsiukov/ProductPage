@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold.eot');
+    src: url('../fontsroboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fontsroboto-bold.woff2') format('woff2'),
+         url('../fontsroboto-bold.woff') format('woff'),
+         url('../fontsroboto-bold.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+body { 
+	font: 400 16px/1 'Roboto',Arial, Tahoma, Verdana, sans-serif;
+}
+.wrapper { 
+	overflow: hidden;
+	height: 100%;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
