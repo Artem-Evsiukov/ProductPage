@@ -55,6 +55,7 @@ sectiot {
 }
 .flex {
 	display: flex;
+	flex-wrap: wrap;
 }
 .col50{
 	width: 50%;
@@ -149,35 +150,38 @@ sectiot {
 .dignity__products {
 	width: 50%
 }
+
+.scrin__title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	margin: 55px 0 0 0;
+	color: #445161;
+}
+.scrin__items {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+	justify-content: center;
+}
 .scrin__image {
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	width: 22%;
+	margin: 33px 15px 0 0;
 }
-.scrin__image2 {
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%
+
+.scrin__description {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	width: 25%;
+	margin: 33px 15px 0 0;
+	font-size: 16px;
 }
-.scrin__image3 {
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%
-}
-.scrin__image4 {
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%
-}
-.scrin__info {
-	width: 60%;
-    padding-left: 20px;
+.scrin__description h4 {
+	font-size: 24px;
+	color: #445161;
 }
