@@ -83,7 +83,7 @@ body {
 	position: absolute;
 	left: 0;
 	top: 2px;
-	background: url("../images/check.png") no-repeat 0 0;
+	background: url("../Images/check.png") no-repeat 0 0;
 	background-size: contain;
 }
 .title30 {
@@ -105,6 +105,7 @@ body {
 .about__product{
 	width: 60%;
 	padding-right: 10px;
+	padding-left: 40px;
 }
 .about__product h3{
 	font-size: 30px;
@@ -154,7 +155,7 @@ body {
 	position: absolute;
 	left: 0;
 	top: 2px;
-	background: url("../images/plus.png") no-repeat 0 0;
+	background: url("../Images/plus.png") no-repeat 0 0;
 	background-size: contain;
 }
 .dignity__products {
