@@ -105,7 +105,7 @@ body {
 .about__product{
 	width: 60%;
 	padding-right: 10px;
-	padding-left: 40px;
+	
 }
 .about__product h3{
 	font-size: 30px;
@@ -377,6 +377,7 @@ input#comment {
 	align-items: center;
 	justify-content: center;
 	color: #fff;
+	padding-bottom: 145px;
 }
 .contact__social li{
 	padding: 20px 8px 0;
