@@ -374,6 +374,7 @@ input#comment {
 }
 .contact__flex {
     padding-bottom: 145px;
+	padding-left: 30px;
 }
 .contact__social {
 	align-items: center;
@@ -461,10 +462,10 @@ input#comment {
     margin-left: 0px;
 }
 .contact__flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+     padding-bottom: 0px;
+	 padding-left: 0px;
 }
+
 .contact__info {
     
     justify-content: flex-start;
@@ -495,6 +496,9 @@ input#comment {
 
 	.about__product h3 {
     text-align: center;
+}
+	.about__conteiner {
+    flex-direction: column;
 }
 	.about__product {
     width: 100%;
